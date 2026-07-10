@@ -62,6 +62,22 @@ body {
     z-index: 999;
 
 }
+
+.language-selector a {
+
+    color: #F5F7FF;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+
+}
+
+.language-selector a:hover {
+
+    color: #8ED8FF;
+
+}
 /* =========================
         HERO
 ========================= */
