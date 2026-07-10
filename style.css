@@ -291,7 +291,7 @@ body::after {
 
     background-size: 90px 90px;
 
-    opacity: 0.20;
+    opacity: 0.70;
 
     animation: twinkle 5s ease-in-out infinite alternate;
 
