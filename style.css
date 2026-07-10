@@ -12,6 +12,7 @@
 
 
 body {
+   position: relative;
 
     font-family: "Segoe UI", Arial, sans-serif;
 
@@ -40,6 +41,8 @@ body {
 
 
 .hero {
+   position: relative;
+z-index: 1;
 
     min-height: 90vh;
 
@@ -157,6 +160,7 @@ body {
 
 nav {
 
+   
     position: sticky;
 
     top: 0;
@@ -169,7 +173,7 @@ nav {
 
     text-align: center;
 
-    z-index: 10;
+    z-index: 2;
 
 }
 
@@ -207,6 +211,9 @@ main {
     margin: auto;
 
     padding: 40px 20px;
+
+   position: relative;
+z-index: 1;
 
 }
 
@@ -288,7 +295,7 @@ body::before {
 
     pointer-events: none;
 
-    z-index: -1;
+    z-index: 0;
 
 }
 
