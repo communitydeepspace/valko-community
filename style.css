@@ -44,7 +44,7 @@ body {
 
 .hero {
    position: relative;
-z-index: 10;
+z-index: 2;
 
     min-height: 90vh;
 
@@ -175,7 +175,7 @@ nav {
 
     text-align: center;
 
-    z-index: 2;
+    z-index: 3;
 
 }
 
@@ -215,7 +215,7 @@ main {
     padding: 40px 20px;
 
    position: relative;
-z-index: 10;
+z-index: 2;
 
 }
 
@@ -287,17 +287,17 @@ body::after {
     height: 100%;
 
     background-image:
-    radial-gradient(circle, rgba(255,255,255,0.9) 1px, transparent 1px);
+    radial-gradient(circle, white 1px, transparent 1px);
 
-    background-size: 90px 90px;
+    background-size: 120px 120px;
 
-    opacity: 0.70;
+    opacity: 0.25;
 
-    animation: twinkle 5s ease-in-out infinite alternate;
+    animation: twinkle 4s ease-in-out infinite alternate;
 
     pointer-events: none;
 
-    z-index: 5;
+    z-index: 1;
 
 }
 
@@ -305,11 +305,11 @@ body::after {
 @keyframes twinkle {
 
     from {
-        opacity: 0.10;
+        opacity: 0.15;
     }
 
     to {
-        opacity: 0.30;
+        opacity: 0.45;
     }
 
 }
