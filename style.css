@@ -289,7 +289,7 @@ body::before {
 
     background-position: center;
 
-    opacity: 0.15;
+    opacity: 0.25;
 
     animation: starsMove 40s linear infinite;
 
