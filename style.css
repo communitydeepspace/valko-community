@@ -274,25 +274,26 @@ section {
 
     padding: 35px;
 
-    background: rgba(4,8,20,0.90);
+    background: rgba(8,15,35,0.55);
 
     border-radius: 20px;
 
     backdrop-filter: blur(14px);
 
-    border: 1px solid rgba(142,216,255,0.18);
+    border: 1px solid rgba(142,216,255,0.22);
 
     box-shadow:
-    0 10px 30px rgba(0,0,0,0.45);
+    0 8px 30px rgba(0,0,0,0.35);
 
 }
 
 
 section h2 {
 
-    color: #8ED8FF;
+    color: #B9E8FF;
 
-    margin-bottom: 15px;
+    text-shadow:
+    0 0 12px rgba(142,216,255,0.5);
 
 }
 
