@@ -87,11 +87,34 @@ z-index: 2;
 
     margin-bottom: 20px;
 
-    animation: logoAppear 5s ease forwards;
+    animation: 
+    logoAppear 2s ease forwards,
+    logoGlow 4s ease-in-out infinite alternate;
+
+
+    box-shadow:
+    0 0 20px rgba(142,216,255,0.8),
+    0 0 40px rgba(142,216,255,0.5),
+    0 0 70px rgba(80,150,255,0.3);
 
 }
 
+@keyframes logoGlow {
 
+    from {
+
+        filter: brightness(1);
+
+    }
+
+
+    to {
+
+        filter: brightness(1.15);
+
+    }
+
+}
 @keyframes logoAppear {
 
     from {
@@ -253,7 +276,7 @@ section {
 
     background:
 
-    rgba(255,255,255,0.65);
+    rgba(255,255,255,0.78);
 
     border-radius: 20px;
 
