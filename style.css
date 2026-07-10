@@ -274,17 +274,16 @@ section {
 
     padding: 35px;
 
-    background:
-
-    rgba(255,255,255,0.78);
+    background: rgba(4,8,20,0.90);
 
     border-radius: 20px;
 
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(14px);
 
-    border:
+    border: 1px solid rgba(142,216,255,0.18);
 
-    1px solid rgba(142,216,255,0.25);
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.45);
 
 }
 
