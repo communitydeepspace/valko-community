@@ -22,8 +22,8 @@ body {
 
     background-image:
     linear-gradient(
-        rgba(11,16,38,0.85),
-        rgba(11,16,38,0.95)
+        rgba(11,16,38,0.55),
+        rgba(11,16,38,0.75)
     ),
     url("images/universe-bg.jpg");
 
