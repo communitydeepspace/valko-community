@@ -44,6 +44,7 @@ body {
 
 .hero {
    position: relative;
+   overflow: hidden;
 z-index: 2;
 
     min-height: 90vh;
@@ -85,6 +86,30 @@ z-index: 2;
     border-radius: 50%;
 
     margin-bottom: 20px;
+
+    animation: logoAppear 2s ease forwards;
+
+}
+
+
+@keyframes logoAppear {
+
+    from {
+
+        opacity: 0;
+
+        transform: scale(0.7);
+
+    }
+
+
+    to {
+
+        opacity: 1;
+
+        transform: scale(1);
+
+    }
 
 }
 
@@ -311,5 +336,96 @@ body::after {
     to {
         opacity: 0.45;
     }
+
+}
+
+.hero::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 250px;
+
+    height: 250px;
+
+    border-radius: 50%;
+
+    background: rgba(142,216,255,0.18);
+
+    filter: blur(40px);
+
+    top: 10%;
+
+    right: 20%;
+
+    animation: moonGlow 5s ease-in-out infinite alternate;
+
+}
+
+
+@keyframes moonGlow {
+
+    from {
+
+        opacity: 0.4;
+
+        transform: scale(1);
+
+    }
+
+
+    to {
+
+        opacity: 0.8;
+
+        transform: scale(1.15);
+
+    }
+
+}
+
+.hero::after {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background-image:
+    radial-gradient(circle, white 1px, transparent 1px);
+
+    background-size: 70px 70px;
+
+    opacity: 0.18;
+
+    animation: heroStars 8s infinite alternate;
+
+}
+
+
+@keyframes heroStars {
+
+    from {
+
+        opacity: 0.10;
+
+    }
+
+
+    to {
+
+        opacity: 0.25;
+
+    }
+
+}
+
+.hero > * {
+
+    position: relative;
+
+    z-index: 3;
 
 }
